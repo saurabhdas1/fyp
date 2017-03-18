@@ -60,9 +60,7 @@ public class Itemsets {
 		System.out.println(" --------------------------------");
 	}
 
-	/* (non-Javadoc)
-	 * @see ca.pfv.spmf.patterns.itemset_array_integers_with_count.AbstractItemsets#addItemset(ca.pfv.spmf.patterns.itemset_array_integers_with_count.Itemset, int)
-	 */
+
 	public void addItemset(Itemset itemset, int k) {
 		while (levels.size() <= k) {
 			levels.add(new ArrayList<Itemset>());
